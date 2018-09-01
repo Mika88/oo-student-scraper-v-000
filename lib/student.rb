@@ -9,7 +9,6 @@ class Student
     self.send "#{k}=", v
    end
     @@all << self
-    binding.pry
   end
 
 
